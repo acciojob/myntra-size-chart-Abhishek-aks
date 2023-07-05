@@ -1,16 +1,23 @@
 /* Your CSS Code here. */
-  thead {
-	  background-color:red;
-	  
+
+table{
+	width:100%;
+	background-color: lightgray;
+	
+}
+thead {
+	  background-color:red;	
   }
-table, th, td  {
-	border: 1px solid black;
+.one{
+	background-color: lightcoral;
+
 }
 
-th, td:nth-child(1n+2){
+th:nth-child(1n+2), td:nth-child(1n+2){
 	text-align:right;
-	padding-left:30px;
+
 }
-.myntra{
-	padding-right:30px;
+table,tr,td,th{
+	border:1px solid black;
+	border-collapse:collapse;
 }
