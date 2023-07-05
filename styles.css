@@ -1,2 +1,16 @@
-
 /* Your CSS Code here. */
+  thead {
+	  background-color:red;
+	  
+  }
+table, th, td  {
+	border: 1px solid black;
+}
+
+th, td:nth-child(1n+2){
+	text-align:right;
+	padding-left:30px;
+}
+.myntra{
+	padding-right:30px;
+}
